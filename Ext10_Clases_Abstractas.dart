@@ -3,7 +3,7 @@ void main() {
 
     print("""
           Lado del Cuadrado: ${mySquare.side}
-          Área que ocupa: ${mySquare.calculateArea()}""");
+          Área total que ocupa: ${mySquare.calculateArea()}""");
 
     mySquare.side = -32;
     print(""" El lado del cuadrado es de : ${mySquare._side}
